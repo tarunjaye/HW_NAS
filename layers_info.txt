@@ -1,0 +1,658 @@
+Layer: conv1/7x7_s2
+  Type: Conv
+  Kernel Size: '[7, 7]'
+  Padding: '[3, 3, 3, 3]'
+  Stride: '[2, 2]'
+
+Layer: conv1/relu_7x7
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: pool1/3x3_s2
+  Type: MaxPool
+
+Layer: pool1/norm1
+  Type: LRN
+
+Layer: conv2/3x3_reduce
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: conv2/relu_3x3_reduce
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: conv2/3x3
+  Type: Conv
+  Kernel Size: '[3, 3]'
+  Padding: '[1, 1, 1, 1]'
+  Stride: '[1, 1]'
+
+Layer: conv2/relu_3x3
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: conv2/norm2
+  Type: LRN
+
+Layer: pool2/3x3_s2
+  Type: MaxPool
+
+Layer: inception_3a/1x1
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_3a/relu_1x1
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_3a/3x3_reduce
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_3a/relu_3x3_reduce
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_3a/3x3
+  Type: Conv
+  Kernel Size: '[3, 3]'
+  Padding: '[1, 1, 1, 1]'
+  Stride: '[1, 1]'
+
+Layer: inception_3a/relu_3x3
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_3a/5x5_reduce
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_3a/relu_5x5_reduce
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_3a/5x5
+  Type: Conv
+  Kernel Size: '[5, 5]'
+  Padding: '[2, 2, 2, 2]'
+  Stride: '[1, 1]'
+
+Layer: inception_3a/relu_5x5
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_3a/pool
+  Type: MaxPool
+
+Layer: inception_3a/pool_proj
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_3a/relu_pool_proj
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_3a/output
+  Type: Concat
+
+Layer: inception_3b/1x1
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_3b/relu_1x1
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_3b/3x3_reduce
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_3b/relu_3x3_reduce
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_3b/3x3
+  Type: Conv
+  Kernel Size: '[3, 3]'
+  Padding: '[1, 1, 1, 1]'
+  Stride: '[1, 1]'
+
+Layer: inception_3b/relu_3x3
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_3b/5x5_reduce
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_3b/relu_5x5_reduce
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_3b/5x5
+  Type: Conv
+  Kernel Size: '[5, 5]'
+  Padding: '[2, 2, 2, 2]'
+  Stride: '[1, 1]'
+
+Layer: inception_3b/relu_5x5
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_3b/pool
+  Type: MaxPool
+
+Layer: inception_3b/pool_proj
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_3b/relu_pool_proj
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_3b/output
+  Type: Concat
+
+Layer: pool3/3x3_s2
+  Type: MaxPool
+
+Layer: inception_4a/1x1
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_4a/relu_1x1
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_4a/3x3_reduce
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_4a/relu_3x3_reduce
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_4a/3x3
+  Type: Conv
+  Kernel Size: '[3, 3]'
+  Padding: '[1, 1, 1, 1]'
+  Stride: '[1, 1]'
+
+Layer: inception_4a/relu_3x3
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_4a/5x5_reduce
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_4a/relu_5x5_reduce
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_4a/5x5
+  Type: Conv
+  Kernel Size: '[5, 5]'
+  Padding: '[2, 2, 2, 2]'
+  Stride: '[1, 1]'
+
+Layer: inception_4a/relu_5x5
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_4a/pool
+  Type: MaxPool
+
+Layer: inception_4a/pool_proj
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_4a/relu_pool_proj
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_4a/output
+  Type: Concat
+
+Layer: inception_4b/1x1
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_4b/relu_1x1
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_4b/3x3_reduce
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_4b/relu_3x3_reduce
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_4b/3x3
+  Type: Conv
+  Kernel Size: '[3, 3]'
+  Padding: '[1, 1, 1, 1]'
+  Stride: '[1, 1]'
+
+Layer: inception_4b/relu_3x3
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_4b/5x5_reduce
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_4b/relu_5x5_reduce
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_4b/5x5
+  Type: Conv
+  Kernel Size: '[5, 5]'
+  Padding: '[2, 2, 2, 2]'
+  Stride: '[1, 1]'
+
+Layer: inception_4b/relu_5x5
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_4b/pool
+  Type: MaxPool
+
+Layer: inception_4b/pool_proj
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_4b/relu_pool_proj
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_4b/output
+  Type: Concat
+
+Layer: inception_4c/1x1
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_4c/relu_1x1
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_4c/3x3_reduce
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_4c/relu_3x3_reduce
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_4c/3x3
+  Type: Conv
+  Kernel Size: '[3, 3]'
+  Padding: '[1, 1, 1, 1]'
+  Stride: '[1, 1]'
+
+Layer: inception_4c/relu_3x3
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_4c/5x5_reduce
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_4c/relu_5x5_reduce
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_4c/5x5
+  Type: Conv
+  Kernel Size: '[5, 5]'
+  Padding: '[2, 2, 2, 2]'
+  Stride: '[1, 1]'
+
+Layer: inception_4c/relu_5x5
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_4c/pool
+  Type: MaxPool
+
+Layer: inception_4c/pool_proj
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_4c/relu_pool_proj
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_4c/output
+  Type: Concat
+
+Layer: inception_4d/1x1
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_4d/relu_1x1
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_4d/3x3_reduce
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_4d/relu_3x3_reduce
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_4d/3x3
+  Type: Conv
+  Kernel Size: '[3, 3]'
+  Padding: '[1, 1, 1, 1]'
+  Stride: '[1, 1]'
+
+Layer: inception_4d/relu_3x3
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_4d/5x5_reduce
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_4d/relu_5x5_reduce
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_4d/5x5
+  Type: Conv
+  Kernel Size: '[5, 5]'
+  Padding: '[2, 2, 2, 2]'
+  Stride: '[1, 1]'
+
+Layer: inception_4d/relu_5x5
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_4d/pool
+  Type: MaxPool
+
+Layer: inception_4d/pool_proj
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_4d/relu_pool_proj
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_4d/output
+  Type: Concat
+
+Layer: inception_4e/1x1
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_4e/relu_1x1
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_4e/3x3_reduce
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_4e/relu_3x3_reduce
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_4e/3x3
+  Type: Conv
+  Kernel Size: '[3, 3]'
+  Padding: '[1, 1, 1, 1]'
+  Stride: '[1, 1]'
+
+Layer: inception_4e/relu_3x3
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_4e/5x5_reduce
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_4e/relu_5x5_reduce
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_4e/5x5
+  Type: Conv
+  Kernel Size: '[5, 5]'
+  Padding: '[2, 2, 2, 2]'
+  Stride: '[1, 1]'
+
+Layer: inception_4e/relu_5x5
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_4e/pool
+  Type: MaxPool
+
+Layer: inception_4e/pool_proj
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_4e/relu_pool_proj
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_4e/output
+  Type: Concat
+
+Layer: pool4/3x3_s2
+  Type: MaxPool
+
+Layer: inception_5a/1x1
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_5a/relu_1x1
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_5a/3x3_reduce
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_5a/relu_3x3_reduce
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_5a/3x3
+  Type: Conv
+  Kernel Size: '[3, 3]'
+  Padding: '[1, 1, 1, 1]'
+  Stride: '[1, 1]'
+
+Layer: inception_5a/relu_3x3
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_5a/5x5_reduce
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_5a/relu_5x5_reduce
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_5a/5x5
+  Type: Conv
+  Kernel Size: '[5, 5]'
+  Padding: '[2, 2, 2, 2]'
+  Stride: '[1, 1]'
+
+Layer: inception_5a/relu_5x5
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_5a/pool
+  Type: MaxPool
+
+Layer: inception_5a/pool_proj
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_5a/relu_pool_proj
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_5a/output
+  Type: Concat
+
+Layer: inception_5b/1x1
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_5b/relu_1x1
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_5b/3x3_reduce
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_5b/relu_3x3_reduce
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_5b/3x3
+  Type: Conv
+  Kernel Size: '[3, 3]'
+  Padding: '[1, 1, 1, 1]'
+  Stride: '[1, 1]'
+
+Layer: inception_5b/relu_3x3
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_5b/5x5_reduce
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_5b/relu_5x5_reduce
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_5b/5x5
+  Type: Conv
+  Kernel Size: '[5, 5]'
+  Padding: '[2, 2, 2, 2]'
+  Stride: '[1, 1]'
+
+Layer: inception_5b/relu_5x5
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_5b/pool
+  Type: MaxPool
+
+Layer: inception_5b/pool_proj
+  Type: Conv
+  Kernel Size: '[1, 1]'
+  Padding: '[0, 0, 0, 0]'
+  Stride: '[1, 1]'
+
+Layer: inception_5b/relu_pool_proj
+  Type: Relu
+  Activation: 'Relu'
+
+Layer: inception_5b/output
+  Type: Concat
+
+Layer: pool5/7x7_s1
+  Type: AveragePool
+
+Layer: pool5/drop_7x7_s1
+  Type: Dropout
+
+Layer: loss3/classifier_agexgender_Reshape
+  Type: Reshape
+
+Layer: loss3/classifier_agexgender_Gemm
+  Type: Gemm
+
+Layer: loss3/loss3
+  Type: Softmax
+  Activation: 'Softmax'
+

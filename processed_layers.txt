@@ -1,0 +1,1596 @@
+Layer: conv1/7x7_s2
+  Type: Conv
+  Kernel Size: [7, 7]
+  Padding: [3, 3, 3, 3]
+  Stride: [2, 2]
+
+Layer: conv2/3x3_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: conv2/3x3
+  Type: Conv
+  Kernel Size: [3, 3]
+  Padding: [1, 1, 1, 1]
+  Stride: [1, 1]
+
+Layer: inception_3a/1x1
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_3a/3x3_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_3a/3x3
+  Type: Conv
+  Kernel Size: [3, 3]
+  Padding: [1, 1, 1, 1]
+  Stride: [1, 1]
+
+Layer: inception_3a/5x5_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_3a/5x5
+  Type: Conv
+  Kernel Size: [5, 5]
+  Padding: [2, 2, 2, 2]
+  Stride: [1, 1]
+
+Layer: inception_3a/pool_proj
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_3b/1x1
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_3b/3x3_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_3b/3x3
+  Type: Conv
+  Kernel Size: [3, 3]
+  Padding: [1, 1, 1, 1]
+  Stride: [1, 1]
+
+Layer: inception_3b/5x5_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_3b/5x5
+  Type: Conv
+  Kernel Size: [5, 5]
+  Padding: [2, 2, 2, 2]
+  Stride: [1, 1]
+
+Layer: inception_3b/pool_proj
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4a/1x1
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4a/3x3_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4a/3x3
+  Type: Conv
+  Kernel Size: [3, 3]
+  Padding: [1, 1, 1, 1]
+  Stride: [1, 1]
+
+Layer: inception_4a/5x5_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4a/5x5
+  Type: Conv
+  Kernel Size: [5, 5]
+  Padding: [2, 2, 2, 2]
+  Stride: [1, 1]
+
+Layer: inception_4a/pool_proj
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4b/1x1
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4b/3x3_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4b/3x3
+  Type: Conv
+  Kernel Size: [3, 3]
+  Padding: [1, 1, 1, 1]
+  Stride: [1, 1]
+
+Layer: inception_4b/5x5_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4b/5x5
+  Type: Conv
+  Kernel Size: [5, 5]
+  Padding: [2, 2, 2, 2]
+  Stride: [1, 1]
+
+Layer: inception_4b/pool_proj
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4c/1x1
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4c/3x3_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4c/3x3
+  Type: Conv
+  Kernel Size: [3, 3]
+  Padding: [1, 1, 1, 1]
+  Stride: [1, 1]
+
+Layer: inception_4c/5x5_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4c/5x5
+  Type: Conv
+  Kernel Size: [5, 5]
+  Padding: [2, 2, 2, 2]
+  Stride: [1, 1]
+
+Layer: inception_4c/pool_proj
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4d/1x1
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4d/3x3_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4d/3x3
+  Type: Conv
+  Kernel Size: [3, 3]
+  Padding: [1, 1, 1, 1]
+  Stride: [1, 1]
+
+Layer: inception_4d/5x5_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4d/5x5
+  Type: Conv
+  Kernel Size: [5, 5]
+  Padding: [2, 2, 2, 2]
+  Stride: [1, 1]
+
+Layer: inception_4d/pool_proj
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4e/1x1
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4e/3x3_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4e/3x3
+  Type: Conv
+  Kernel Size: [3, 3]
+  Padding: [1, 1, 1, 1]
+  Stride: [1, 1]
+
+Layer: inception_4e/5x5_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4e/5x5
+  Type: Conv
+  Kernel Size: [5, 5]
+  Padding: [2, 2, 2, 2]
+  Stride: [1, 1]
+
+Layer: inception_4e/pool_proj
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_5a/1x1
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_5a/3x3_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_5a/3x3
+  Type: Conv
+  Kernel Size: [3, 3]
+  Padding: [1, 1, 1, 1]
+  Stride: [1, 1]
+
+Layer: inception_5a/5x5_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_5a/5x5
+  Type: Conv
+  Kernel Size: [5, 5]
+  Padding: [2, 2, 2, 2]
+  Stride: [1, 1]
+
+Layer: inception_5a/pool_proj
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_5b/1x1
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_5b/3x3_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_5b/3x3
+  Type: Conv
+  Kernel Size: [3, 3]
+  Padding: [1, 1, 1, 1]
+  Stride: [1, 1]
+
+Layer: inception_5b/5x5_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_5b/5x5
+  Type: Conv
+  Kernel Size: [5, 5]
+  Padding: [2, 2, 2, 2]
+  Stride: [1, 1]
+
+Layer: inception_5b/pool_proj
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: conv1/7x7_s2
+  Type: Conv
+  Kernel Size: [7, 7]
+  Padding: [3, 3, 3, 3]
+  Stride: [2, 2]
+
+Layer: conv2/3x3_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: conv2/3x3
+  Type: Conv
+  Kernel Size: [3, 3]
+  Padding: [1, 1, 1, 1]
+  Stride: [1, 1]
+
+Layer: inception_3a/1x1
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_3a/3x3_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_3a/3x3
+  Type: Conv
+  Kernel Size: [3, 3]
+  Padding: [1, 1, 1, 1]
+  Stride: [1, 1]
+
+Layer: inception_3a/5x5_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_3a/5x5
+  Type: Conv
+  Kernel Size: [5, 5]
+  Padding: [2, 2, 2, 2]
+  Stride: [1, 1]
+
+Layer: inception_3a/pool_proj
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_3b/1x1
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_3b/3x3_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_3b/3x3
+  Type: Conv
+  Kernel Size: [3, 3]
+  Padding: [1, 1, 1, 1]
+  Stride: [1, 1]
+
+Layer: inception_3b/5x5_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_3b/5x5
+  Type: Conv
+  Kernel Size: [5, 5]
+  Padding: [2, 2, 2, 2]
+  Stride: [1, 1]
+
+Layer: inception_3b/pool_proj
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4a/1x1
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4a/3x3_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4a/3x3
+  Type: Conv
+  Kernel Size: [3, 3]
+  Padding: [1, 1, 1, 1]
+  Stride: [1, 1]
+
+Layer: inception_4a/5x5_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4a/5x5
+  Type: Conv
+  Kernel Size: [5, 5]
+  Padding: [2, 2, 2, 2]
+  Stride: [1, 1]
+
+Layer: inception_4a/pool_proj
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4b/1x1
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4b/3x3_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4b/3x3
+  Type: Conv
+  Kernel Size: [3, 3]
+  Padding: [1, 1, 1, 1]
+  Stride: [1, 1]
+
+Layer: inception_4b/5x5_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4b/5x5
+  Type: Conv
+  Kernel Size: [5, 5]
+  Padding: [2, 2, 2, 2]
+  Stride: [1, 1]
+
+Layer: inception_4b/pool_proj
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4c/1x1
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4c/3x3_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4c/3x3
+  Type: Conv
+  Kernel Size: [3, 3]
+  Padding: [1, 1, 1, 1]
+  Stride: [1, 1]
+
+Layer: inception_4c/5x5_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4c/5x5
+  Type: Conv
+  Kernel Size: [5, 5]
+  Padding: [2, 2, 2, 2]
+  Stride: [1, 1]
+
+Layer: inception_4c/pool_proj
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4d/1x1
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4d/3x3_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4d/3x3
+  Type: Conv
+  Kernel Size: [3, 3]
+  Padding: [1, 1, 1, 1]
+  Stride: [1, 1]
+
+Layer: inception_4d/5x5_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4d/5x5
+  Type: Conv
+  Kernel Size: [5, 5]
+  Padding: [2, 2, 2, 2]
+  Stride: [1, 1]
+
+Layer: inception_4d/pool_proj
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4e/1x1
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4e/3x3_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4e/3x3
+  Type: Conv
+  Kernel Size: [3, 3]
+  Padding: [1, 1, 1, 1]
+  Stride: [1, 1]
+
+Layer: inception_4e/5x5_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_4e/5x5
+  Type: Conv
+  Kernel Size: [5, 5]
+  Padding: [2, 2, 2, 2]
+  Stride: [1, 1]
+
+Layer: inception_4e/pool_proj
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_5a/1x1
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_5a/3x3_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_5a/3x3
+  Type: Conv
+  Kernel Size: [3, 3]
+  Padding: [1, 1, 1, 1]
+  Stride: [1, 1]
+
+Layer: inception_5a/5x5_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_5a/5x5
+  Type: Conv
+  Kernel Size: [5, 5]
+  Padding: [2, 2, 2, 2]
+  Stride: [1, 1]
+
+Layer: inception_5a/pool_proj
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_5b/1x1
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_5b/3x3_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_5b/3x3
+  Type: Conv
+  Kernel Size: [3, 3]
+  Padding: [1, 1, 1, 1]
+  Stride: [1, 1]
+
+Layer: inception_5b/5x5_reduce
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: inception_5b/5x5
+  Type: Conv
+  Kernel Size: [5, 5]
+  Padding: [2, 2, 2, 2]
+  Stride: [1, 1]
+
+Layer: inception_5b/pool_proj
+  Type: Conv
+  Kernel Size: [1, 1]
+  Padding: [0, 0, 0, 0]
+  Stride: [1, 1]
+
+Layer: conv1/7x7_s2
+  Type: Conv
+Attributes:
+  Kernel Size: [7, 7]
+  Stride: [2, 2]
+  Padding: [3, 3, 3, 3]
+  CC Result: 1346
+-----------------------------------
+Layer: conv2/3x3_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: conv2/3x3
+  Type: Conv
+Attributes:
+  Kernel Size: [3, 3]
+  Stride: [1, 1]
+  Padding: [1, 1, 1, 1]
+  CC Result: 1049
+-----------------------------------
+Layer: inception_3a/1x1
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_3a/3x3_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_3a/3x3
+  Type: Conv
+Attributes:
+  Kernel Size: [3, 3]
+  Stride: [1, 1]
+  Padding: [1, 1, 1, 1]
+  CC Result: 1049
+-----------------------------------
+Layer: inception_3a/5x5_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_3a/5x5
+  Type: Conv
+Attributes:
+  Kernel Size: [5, 5]
+  Stride: [1, 1]
+  Padding: [2, 2, 2, 2]
+  CC Result: 2777
+-----------------------------------
+Layer: inception_3a/pool_proj
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_3b/1x1
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_3b/3x3_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_3b/3x3
+  Type: Conv
+Attributes:
+  Kernel Size: [3, 3]
+  Stride: [1, 1]
+  Padding: [1, 1, 1, 1]
+  CC Result: 1049
+-----------------------------------
+Layer: inception_3b/5x5_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_3b/5x5
+  Type: Conv
+Attributes:
+  Kernel Size: [5, 5]
+  Stride: [1, 1]
+  Padding: [2, 2, 2, 2]
+  CC Result: 2777
+-----------------------------------
+Layer: inception_3b/pool_proj
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4a/1x1
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4a/3x3_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4a/3x3
+  Type: Conv
+Attributes:
+  Kernel Size: [3, 3]
+  Stride: [1, 1]
+  Padding: [1, 1, 1, 1]
+  CC Result: 1049
+-----------------------------------
+Layer: inception_4a/5x5_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4a/5x5
+  Type: Conv
+Attributes:
+  Kernel Size: [5, 5]
+  Stride: [1, 1]
+  Padding: [2, 2, 2, 2]
+  CC Result: 2777
+-----------------------------------
+Layer: inception_4a/pool_proj
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4b/1x1
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4b/3x3_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4b/3x3
+  Type: Conv
+Attributes:
+  Kernel Size: [3, 3]
+  Stride: [1, 1]
+  Padding: [1, 1, 1, 1]
+  CC Result: 1049
+-----------------------------------
+Layer: inception_4b/5x5_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4b/5x5
+  Type: Conv
+Attributes:
+  Kernel Size: [5, 5]
+  Stride: [1, 1]
+  Padding: [2, 2, 2, 2]
+  CC Result: 2777
+-----------------------------------
+Layer: inception_4b/pool_proj
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4c/1x1
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4c/3x3_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4c/3x3
+  Type: Conv
+Attributes:
+  Kernel Size: [3, 3]
+  Stride: [1, 1]
+  Padding: [1, 1, 1, 1]
+  CC Result: 1049
+-----------------------------------
+Layer: inception_4c/5x5_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4c/5x5
+  Type: Conv
+Attributes:
+  Kernel Size: [5, 5]
+  Stride: [1, 1]
+  Padding: [2, 2, 2, 2]
+  CC Result: 2777
+-----------------------------------
+Layer: inception_4c/pool_proj
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4d/1x1
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4d/3x3_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4d/3x3
+  Type: Conv
+Attributes:
+  Kernel Size: [3, 3]
+  Stride: [1, 1]
+  Padding: [1, 1, 1, 1]
+  CC Result: 1049
+-----------------------------------
+Layer: inception_4d/5x5_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4d/5x5
+  Type: Conv
+Attributes:
+  Kernel Size: [5, 5]
+  Stride: [1, 1]
+  Padding: [2, 2, 2, 2]
+  CC Result: 2777
+-----------------------------------
+Layer: inception_4d/pool_proj
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4e/1x1
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4e/3x3_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4e/3x3
+  Type: Conv
+Attributes:
+  Kernel Size: [3, 3]
+  Stride: [1, 1]
+  Padding: [1, 1, 1, 1]
+  CC Result: 1049
+-----------------------------------
+Layer: inception_4e/5x5_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4e/5x5
+  Type: Conv
+Attributes:
+  Kernel Size: [5, 5]
+  Stride: [1, 1]
+  Padding: [2, 2, 2, 2]
+  CC Result: 2777
+-----------------------------------
+Layer: inception_4e/pool_proj
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_5a/1x1
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_5a/3x3_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_5a/3x3
+  Type: Conv
+Attributes:
+  Kernel Size: [3, 3]
+  Stride: [1, 1]
+  Padding: [1, 1, 1, 1]
+  CC Result: 1049
+-----------------------------------
+Layer: inception_5a/5x5_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_5a/5x5
+  Type: Conv
+Attributes:
+  Kernel Size: [5, 5]
+  Stride: [1, 1]
+  Padding: [2, 2, 2, 2]
+  CC Result: 2777
+-----------------------------------
+Layer: inception_5a/pool_proj
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_5b/1x1
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_5b/3x3_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_5b/3x3
+  Type: Conv
+Attributes:
+  Kernel Size: [3, 3]
+  Stride: [1, 1]
+  Padding: [1, 1, 1, 1]
+  CC Result: 1049
+-----------------------------------
+Layer: inception_5b/5x5_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_5b/5x5
+  Type: Conv
+Attributes:
+  Kernel Size: [5, 5]
+  Stride: [1, 1]
+  Padding: [2, 2, 2, 2]
+  CC Result: 2777
+-----------------------------------
+Layer: inception_5b/pool_proj
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: conv1/7x7_s2
+  Type: Conv
+Attributes:
+  Kernel Size: [7, 7]
+  Stride: [2, 2]
+  Padding: [3, 3, 3, 3]
+  CC Result: 1346
+-----------------------------------
+Layer: conv2/3x3_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: conv2/3x3
+  Type: Conv
+Attributes:
+  Kernel Size: [3, 3]
+  Stride: [1, 1]
+  Padding: [1, 1, 1, 1]
+  CC Result: 1049
+-----------------------------------
+Layer: inception_3a/1x1
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_3a/3x3_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_3a/3x3
+  Type: Conv
+Attributes:
+  Kernel Size: [3, 3]
+  Stride: [1, 1]
+  Padding: [1, 1, 1, 1]
+  CC Result: 1049
+-----------------------------------
+Layer: inception_3a/5x5_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_3a/5x5
+  Type: Conv
+Attributes:
+  Kernel Size: [5, 5]
+  Stride: [1, 1]
+  Padding: [2, 2, 2, 2]
+  CC Result: 2777
+-----------------------------------
+Layer: inception_3a/pool_proj
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_3b/1x1
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_3b/3x3_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_3b/3x3
+  Type: Conv
+Attributes:
+  Kernel Size: [3, 3]
+  Stride: [1, 1]
+  Padding: [1, 1, 1, 1]
+  CC Result: 1049
+-----------------------------------
+Layer: inception_3b/5x5_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_3b/5x5
+  Type: Conv
+Attributes:
+  Kernel Size: [5, 5]
+  Stride: [1, 1]
+  Padding: [2, 2, 2, 2]
+  CC Result: 2777
+-----------------------------------
+Layer: inception_3b/pool_proj
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4a/1x1
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4a/3x3_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4a/3x3
+  Type: Conv
+Attributes:
+  Kernel Size: [3, 3]
+  Stride: [1, 1]
+  Padding: [1, 1, 1, 1]
+  CC Result: 1049
+-----------------------------------
+Layer: inception_4a/5x5_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4a/5x5
+  Type: Conv
+Attributes:
+  Kernel Size: [5, 5]
+  Stride: [1, 1]
+  Padding: [2, 2, 2, 2]
+  CC Result: 2777
+-----------------------------------
+Layer: inception_4a/pool_proj
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4b/1x1
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4b/3x3_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4b/3x3
+  Type: Conv
+Attributes:
+  Kernel Size: [3, 3]
+  Stride: [1, 1]
+  Padding: [1, 1, 1, 1]
+  CC Result: 1049
+-----------------------------------
+Layer: inception_4b/5x5_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4b/5x5
+  Type: Conv
+Attributes:
+  Kernel Size: [5, 5]
+  Stride: [1, 1]
+  Padding: [2, 2, 2, 2]
+  CC Result: 2777
+-----------------------------------
+Layer: inception_4b/pool_proj
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4c/1x1
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4c/3x3_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4c/3x3
+  Type: Conv
+Attributes:
+  Kernel Size: [3, 3]
+  Stride: [1, 1]
+  Padding: [1, 1, 1, 1]
+  CC Result: 1049
+-----------------------------------
+Layer: inception_4c/5x5_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4c/5x5
+  Type: Conv
+Attributes:
+  Kernel Size: [5, 5]
+  Stride: [1, 1]
+  Padding: [2, 2, 2, 2]
+  CC Result: 2777
+-----------------------------------
+Layer: inception_4c/pool_proj
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4d/1x1
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4d/3x3_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4d/3x3
+  Type: Conv
+Attributes:
+  Kernel Size: [3, 3]
+  Stride: [1, 1]
+  Padding: [1, 1, 1, 1]
+  CC Result: 1049
+-----------------------------------
+Layer: inception_4d/5x5_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4d/5x5
+  Type: Conv
+Attributes:
+  Kernel Size: [5, 5]
+  Stride: [1, 1]
+  Padding: [2, 2, 2, 2]
+  CC Result: 2777
+-----------------------------------
+Layer: inception_4d/pool_proj
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4e/1x1
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4e/3x3_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4e/3x3
+  Type: Conv
+Attributes:
+  Kernel Size: [3, 3]
+  Stride: [1, 1]
+  Padding: [1, 1, 1, 1]
+  CC Result: 1049
+-----------------------------------
+Layer: inception_4e/5x5_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_4e/5x5
+  Type: Conv
+Attributes:
+  Kernel Size: [5, 5]
+  Stride: [1, 1]
+  Padding: [2, 2, 2, 2]
+  CC Result: 2777
+-----------------------------------
+Layer: inception_4e/pool_proj
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_5a/1x1
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_5a/3x3_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_5a/3x3
+  Type: Conv
+Attributes:
+  Kernel Size: [3, 3]
+  Stride: [1, 1]
+  Padding: [1, 1, 1, 1]
+  CC Result: 1049
+-----------------------------------
+Layer: inception_5a/5x5_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_5a/5x5
+  Type: Conv
+Attributes:
+  Kernel Size: [5, 5]
+  Stride: [1, 1]
+  Padding: [2, 2, 2, 2]
+  CC Result: 2777
+-----------------------------------
+Layer: inception_5a/pool_proj
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_5b/1x1
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_5b/3x3_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_5b/3x3
+  Type: Conv
+Attributes:
+  Kernel Size: [3, 3]
+  Stride: [1, 1]
+  Padding: [1, 1, 1, 1]
+  CC Result: 1049
+-----------------------------------
+Layer: inception_5b/5x5_reduce
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
+Layer: inception_5b/5x5
+  Type: Conv
+Attributes:
+  Kernel Size: [5, 5]
+  Stride: [1, 1]
+  Padding: [2, 2, 2, 2]
+  CC Result: 2777
+-----------------------------------
+Layer: inception_5b/pool_proj
+  Type: Conv
+Attributes:
+  Kernel Size: [1, 1]
+  Stride: [1, 1]
+  Padding: [0, 0, 0, 0]
+  CC Result: 185
+-----------------------------------
