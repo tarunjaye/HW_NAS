@@ -1,1 +1,15 @@
+## Max Pooling
+To find the maximum of given numbers,the following approach has been chosen.
+the first two numbers are compared and then the maximum number is retained in the same register it is loaded and then the next number is loaded into the other register where the old value can be discarded.This process is repeated until we finish iterating over all the given number
 
+For the first comparision,it requires two loads,one cmp and one jump and there after it takes one load,one cmp,one jump for every comparision and finally one store to store the result.
+
+max_for_one_output_element = 3(k*k)-1; #k=size of the pooling window
+Total_MaxPooling_cc_for_complete_output_size =(n*n)*max_for_one_output_element 
+
+Assumptions about processor archecitecute
+1.No Memory latency
+2.Cache Hit
+3.Data Forwading enabled
+4.Pipeline Stages =5 
+5.L1 cache is big enough to store inputs and outputs
