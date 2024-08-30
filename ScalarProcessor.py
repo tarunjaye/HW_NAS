@@ -1,8 +1,8 @@
 import math
 
 class ScalarProcessor:
-    def __init__(self, no_of_lanes, pipeline_overhead, vector_width, multiplier_size):
-        self.no_of_lanes = no_of_lanes
+    def __init__(self, data_forwading, pipeline_overhead, vector_width, multiplier_size):
+        self.no_of_lanes = data_forwading
         self.pipeline_overhead = pipeline_overhead
         self.vector_width = vector_width
         self.multiplier_size = multiplier_size
