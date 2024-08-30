@@ -175,8 +175,8 @@ class ONNXModel:
 
 if __name__ == "__main__":
     model_path = "/Users/tarunjaye/Downloads/bvlcalexnet-9.onnx"  # Replace with your ONNX model path
-    vector_processor = VectorProcessor(no_of_lanes=4, pipeline_overhead=10,vector_width=256,multiplier_size=32)  # Example values
-    scalar_processor = ScalarProcessor(no_of_lanes=4, pipeline_overhead=10,vector_width=256,multiplier_size=32)  # Example values
+    vector_processor = VectorProcessor(no_of_lanes=4, pipeline_overhead=10,vector_width=256,multiplier_size=32,cache_latency=1,data_forwading=0)  # Example values
+    scalar_processor = ScalarProcessor(data_forwading=0, pipeline_overhead=20,regs=20,cache_latency=1)  # Example values
     onnx_model = ONNXModel(model_path, vector_processor, scalar_processor)
     onnx_model.extract_layers_info()
     onnx_model.print_layers_info()
