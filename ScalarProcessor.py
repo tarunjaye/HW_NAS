@@ -1,11 +1,11 @@
 import math
 
 class ScalarProcessor:
-    def __init__(self, data_forwading, pipeline_overhead, vector_width, multiplier_size):
+    def __init__(self, data_forwading, pipeline_overhead, regs, cache_latency):
         self.no_of_lanes = data_forwading
         self.pipeline_overhead = pipeline_overhead
-        self.vector_width = vector_width
-        self.multiplier_size = multiplier_size
+        self.regs = regs
+        self.cache_latency = cache_latency
 
     def calculate_convolution_cc(self, input_shape, kernel_shape, output_shape):
         # Extracting the relevant sizes
